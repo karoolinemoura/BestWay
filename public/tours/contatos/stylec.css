@@ -1,0 +1,126 @@
+/* Seção do time */
+.team-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Altere a largura total dos cartões e o espaçamento entre eles */
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Reduzi o espaçamento entre os cartões */
+  flex-wrap: wrap; /* Permite que quebre em linha quando necessário, mas tenta manter todos na mesma */
+}
+
+/* Estilos para os cartões */
+.team-member {
+  border: 1px solid #ddd;
+  padding: 20px; /* Reduzi o padding interno */
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 250px; /* Reduzi a largura do card para caber melhor */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Aumente o tamanho das imagens dentro dos cartões */
+.team-member img {
+  border-radius: 50%;
+  width: 200px; /* Reduzi a largura da imagem */
+  height: 200px; /* Reduzi a altura da imagem */
+  object-fit: cover;
+}
+
+.team-member h3 {
+  margin: 10px 0;
+  font-size: 1.4em;
+  color: #000000;
+}
+
+/* Estilizando a seção de contatos */
+.contacts {
+  margin-top: 15px;
+}
+
+.contacts a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 5px 0;
+  color: #6495ed;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.contacts a:hover {
+  color: #4169e1;
+}
+
+.contacts i {
+  margin-right: 10px;
+  font-size: 1.3em;
+}
+
+/* Estilos gerais para a página de documentos */
+.body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo do cabeçalho */
+  .documentos-header {
+    background-color: #6495ed; /* Cor azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo do conteúdo principal */
+  .documentos-main {
+    padding: 20px;
+  }
+  
+  /* Estilo da seção de termos e condições */
+  .documentos-terms,
+  .documentos-privacy {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  /* Títulos das seções */
+ .h2 {
+    color: #333;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Estilos de texto */
+  .documentos-p {
+    line-height: 1.6;
+    color: #555;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Estilo do rodapé */
+  .documentos-footer {
+    background-color: #6495ed; /* Cor azul */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
